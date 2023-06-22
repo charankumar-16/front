@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-container {
+  height: 100vh;
+  padding: 10px;
+  background-color: #61dafb;
+}
+
+.top-container {
+  height: 25vh;
+  background-image: url("https://cdn.britannica.com/36/123536-050-95CB0C6E/Variety-fruits-vegetables.jpg?w=400&h=300&c=crop"),
+    url("https://www.eatingwell.com/thmb/m5xUzIOmhWSoXZnY-oZcO9SdArQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/article_291139_the-top-10-healthiest-foods-for-kids_-02-4b745e57928c4786a61b47d8ba920058.jpg");
+  background-position: right, left;
+  width: 100%;
+  background-repeat: no-repeat, no-repeat;
+  padding: 15px;
+}
+.mid-container {
+  height: 25vh;
+}
+.last-first-container {
+  height: 25vh;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  color: white;
+  font-family: "Kdam Thmor";
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 108px;
+  letter-spacing: 0.07em;
+  text-align: center;
+}
+
+.desc {
+  color: white;
+  font-family: "Yusei Magic";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 71px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: center;
+}
+.btn {
+  background-color: #fa6650;
+  height: 70px;
+  width: 300px;
+  font-size: 20px;
+  padding: 10px;
+  color: white;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.last-second-container {
+  display: flex;
+  justify-content: center;
+  height: 25vh;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.015em;
+  text-align: center;
+  color: white;
+}
+
+.about {
+  margin: 10px;
+}
